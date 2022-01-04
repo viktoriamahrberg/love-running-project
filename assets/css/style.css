@@ -95,15 +95,20 @@ h1, h2 {
 
     position: absolute;
 }
+
 #club-ethos {
     height: 600px;
 
+}
+hr {
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px;
 }
 #left-about {
     padding-top: 30px;
     width: 33%;
     float: left;
-
 }
 #right-about {
     padding-top: 30px;
@@ -115,15 +120,25 @@ h1, h2 {
     width: 33%;
    margin: 0 auto;
 }
-hr {
-    border-top: 1px solid #3a3a3a;
-    width: 100%;
-    margin: 5px;
-}
+
+
 .left-about-heading {
     width: 60%;
     line-height: 20px;
     float: right;
     clear: both;
     margin-bottom: 50px;
+}
+.right-about-heading {
+    width: 60%;
+    line-height: 20px;
+    float: left;
+    clear: both;
+    margin-bottom: 50px;
+}
+.right-about-heading h2 {
+    text-align: right;
+}
+.right-about-heading p {
+    text-align: right;
 }
