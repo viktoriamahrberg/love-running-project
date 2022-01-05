@@ -281,6 +281,12 @@ footer {
     hr {
         display: none;
     }
+    #times > div {
+        width: 100%;
+        clear: both; /* to stack the boxes we use this */
+        height: 150px;
+        padding: 0; /* to clear out any unwanted desktop default padding */
+    }
 }
 
 /* For medium screens size from 950px wide and down */
