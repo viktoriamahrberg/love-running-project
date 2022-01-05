@@ -281,12 +281,16 @@ footer {
     hr {
         display: none;
     }
-    #times > div {
+
+    #times>div {
         width: 100%;
-        clear: both; /* to stack the boxes we use this */
+        clear: both;
+        /* to stack the boxes we use this */
         height: 150px;
-        padding: 0; /* to clear out any unwanted desktop default padding */
+        padding: 0;
+        /* to clear out any unwanted desktop default padding */
     }
+
 }
 
 /* For medium screens size from 950px wide and down */
@@ -299,23 +303,39 @@ footer {
         margin-bottom: 20px;
         line-height: 25px;
     }
+
     #cover-text {
         left: 0;
     }
+
     #club-ethos {
         width: 90%;
         height: 1200px;
         margin: 0 auto;
     }
-    .left-about-heading, .right-about-heading {
+
+    .left-about-heading,
+    .right-about-heading {
         width: inherit;
     }
-    .left-about-heading h2, .right-about-heading h2 {
+
+    .left-about-heading h2,
+    .right-about-heading h2 {
         width: 100%;
         text-align: center;
     }
-    .left-about-heading p, .right-about-heading p {
+
+    .left-about-heading p,
+    .right-about-heading p {
         text-align: center;
         padding: 0 20px;
+    }
+    #photos {
+        column-count: 3;
+    }
+}
+@media screen and (max-width: 800px) {
+    #photos {
+        column-count: 2;
     }
 }
